@@ -1,0 +1,69 @@
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.full-background-req {
+  background: url('../../assets/backk.png') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+
+.loan-request-form-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+ 
+  border-radius: 8px;
+
+  background-color: #f8f9fa;
+}
+
+.loan-request-form-header {
+  text-align: center;
+  color: #007bff;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.loan-request-form-label {
+  display: block;
+  margin-top: 10px;
+  font-size: 26px;
+  color:black;
+}
+
+.loan-request-form-input,
+.loan-request-form-select {
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.loan-request-form-select {
+  background-color: #fff;
+}
+
+.loan-request-form-button {
+  background-color: #007bff;
+  color: white;
+  padding: 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.loan-request-form-button:hover {
+  background-color:green;
+}

@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.full-background {
+  background: url('../../assets/white.webp') center /cover no-repeat;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.font-a{
+  font-size: 90px;
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 400px;
+  color: transparent,burlywood;
+}
+
+.registration-container {
+width: 380px;
+  margin-top: 0px;
+  margin-left: 10px;
+  margin-bottom: 50px;
+  padding: 20px;
+  border: 6px solid #045ab1;
+  border-radius: 80px;
+  background-color: transparent;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.registration-header {
+  text-align: center;
+  color: #007bff;
+  font-size: 28px;
+  margin-bottom: 29px;
+}
+
+.registration-label {
+  display: block;
+  margin-top: 5px;
+  font-size: 26px;
+  color:white;
+}
+
+.registration-input,
+.registration-select {
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.registration-select {
+  background-color: #fff;
+}
+
+.registration-button {
+  background-color: #007bff;
+  color: white;
+  padding: 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.registration-button:hover {
+  background-color: #0056b3;
+}
